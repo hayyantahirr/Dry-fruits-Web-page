@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!-- style links -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/utilities.css" />
+
+    <!-- bootstrap links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar started  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="./Assets/carousel img/Dry_fruit_logo-removebg-preview.png" alt="" class="nav-img" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">feed Back</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+          <form class="d-flex inp-search" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success search-btn" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ended  -->
+
+    <!-- carousel started  -->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide carousel-main"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./Assets/carousel img/Akhrot.webp"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Assets/carousel img/Almonds.jpg"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Assets/carousel img/pista.avif"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Assets/carousel img/kish mish.webp"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel ended  -->
+    <!-- cards  -->
+    <div class="d-flex justify-center gap wrap mt-5">
+      <div class="card" style="width: 30rem">
+        <img
+          src="./Assets/carousel img/Akhrot.webp"
+          class="card-img-top card-img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">&#x24;5.0 /kg</h3>
+          <h5 class="card-title">Fresh Akhrot</h5>
+          <p class="card-text">
+            Akhrot, also known as walnut, is a nutritious nut rich in omega-3
+            fatty acids, antioxidants, and vitamins. Its distinct flavor
+            enhances dishes and offers various health benefits.
+          </p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 30rem">
+        <img
+          src="./Assets/carousel img/Almonds.jpg"
+          class="card-img-top card-img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">&#x24;7.0 /kg</h3>
+          <h5 class="card-title">Fresh Almonds</h5>
+          <p class="card-text">
+            Almonds are nutritious tree nuts with a crunchy texture and a mildly
+            sweet flavor. They are rich in healthy fats, protein, fiber,
+            vitamins, and minerals, making them a popular snack.
+          </p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 30rem">
+        <img
+          src="./Assets/carousel img/kish mish.webp"
+          class="card-img-top card-img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">&#x24;4.0 /kg</h3>
+          <h5 class="card-title">Fresh Kishmish</h5>
+          <p class="card-text">
+            Kishmish, also known as raisins, are dried grapes. They are sweet,
+            chewy, and commonly used in cooking, baking, and as a snack. Rich in
+            vitamins and minerals.
+          </p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-center gap wrap mt-5">
+      <div class="card" style="width: 30rem">
+        <img
+          src="./Assets/carousel img//pista.avif"
+          class="card-img-top card-img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">&#x24;8.0 /kg</h3>
+          <h5 class="card-title">Fresh Pista</h5>
+          <p class="card-text">
+            Pista, also known as pistachio, is a greenish nut with a sweet,
+            slightly tangy flavor. It's often used in various cuisines,
+            desserts, and snacks, prized for its distinctive taste and health
+            benefits.
+          </p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 30rem">
+        <img
+          src="./Assets/carousel img/dates.webp"
+          class="card-img-top card-img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">&#x24;4.0 /kg</h3>
+          <h5 class="card-title">Fresh Dates</h5>
+          <p class="card-text">
+            Dates are small, sweet fruits with a chewy texture. They're rich in
+            nutrients like fiber, vitamins, and minerals. Commonly used in
+            desserts, they also serve as natural sweeteners in cooking.
+          </p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 30rem">
+        <img
+          src="./Assets/carousel img/Kaju.jpg"
+          class="card-img-top card-img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">&#x24;10.0 /kg</h3>
+          <h5 class="card-title">Fresh Kaju</h5>
+          <p class="card-text">
+            Kaju, commonly known as cashew, is a creamy, buttery nut with a
+            mild, sweet flavor. It's versatile in cooking, used in dishes,
+            desserts, and snacks, prized for its rich taste and nutritional
+            profile.
+          </p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-center gap wrap mt-5">
+      <div class="card" style="width: 30rem">
+        <img
+          src="./Assets/carousel img/injeer.jpg"
+          class="card-img-top card-img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">&#x24;15.5 /kg</h3>
+          <h5 class="card-title">Fresh Anjeer</h5>
+          <p class="card-text">
+            Anjeer, or fig, is a fruit with a tender, sweet flesh and tiny
+            edible seeds. Rich in fiber, vitamins, and minerals, it's enjoyed
+            fresh, dried, or in various culinary creations.
+          </p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 30rem">
+        <img
+          src="./Assets/carousel img/peanuts.jpg"
+          class="card-img-top card-img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">&#x24;2.99 /kg</h3>
+          <h5 class="card-title">Fresh roasted peanuts</h5>
+          <p class="card-text">
+            Roasted peanuts are crunchy legumes with a rich, toasty flavor.
+            They're a popular snack enjoyed globally, providing a satisfying
+            crunch and a nutritious source of protein, fiber, and healthy fats.
+          </p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 30rem">
+        <img
+          src="./Assets/carousel img/organic honey.jpg"
+          class="card-img-top card-img"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">&#x24;25.0 /kg</h3>
+          <h5 class="card-title">Fresh Organic Honey</h5>
+          <p class="card-text">
+            Organic honey is produced by bees from nectar collected from
+            organically managed plants. It's free from synthetic pesticides and
+            chemicals, offering a pure, flavorful, and environmentally friendly
+            sweetener with potential health benefits.
+          </p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+    </div>
+    <!-- footer section  -->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>Dry<span>Fruits</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          |
+          <a href="#">About</a>
+          |
+          <a href="#">Contact</a>
+          |
+          <a href="#">Feed back</a>
+        </p>
+
+        <p class="footer-company-name">
+          Copyright © 2024 <strong>SDry Fruits</strong> All rights reserved
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>karachi</span> pakistan</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+92 32027646468</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>
+            <a href="mailto:hayyantahir7@gmail.com">hayyantahir7@gmail.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About the company</span>
+          <strong>Dry Fruits</strong> are nutrient-dense foods
+          obtained by removing moisture from fresh fruits, preserving their
+          flavor and nutrients. They include almonds, cashews, raisins, and
+          apricots, valued for their taste and health benefits.
+        </p>
+       
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
